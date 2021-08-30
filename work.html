@@ -8,8 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
     />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
@@ -19,20 +21,72 @@
   </head>
   <body>
     <!-------START OF NAVBAR CODE------->
-    <nav>
-      <a class="nav-content nav-logo" href="index.html">Bethel Girma Bahta</a>
-      <div class="navigation-links">
-        <a class="nav-content nav-link" href="index.html">Contact</a>
-        <a class="nav-content nav-link" href="index.html">Work</a>
-        <a class="nav-content nav-link" href="index.html">About</a>
-        <a class="nav-content nav-link" href="index.html">Home</a>
-      </div>
-    </nav>
-
+    <header class="header">
+      <nav class="navbar">
+        <h1 class="nav-logo">Bethel Girma Bahta</h1>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="work.html" class="nav-link">Work</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
     <!-------END OF NAVBAR CODE------->
 
-    <!-------START OF WORK SECTION CODE------->
+    <!-------START OF PROJECTS SECTION CODE------->
+    <div class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+      <div class="portfolio">
+        <!--Portfolio item 01-->
+        <a href="portfolio-item.html" class="portfolio__item">
+          <img
+            src="images/weather.png"
+            alt="weather application"
+            class="portfolio__img img-fluid"
+          />
+        </a>
+        <!--Portfolio item 02-->
+        <a href="#" class="portfolio__item">
+          <img
+            src="images/yoga.png"
+            alt="yoga application"
+            class="portfolio__img img-fluid"
+          />
+        </a>
 
-    <!-------END OF WORK SECTION CODE------->
+        <!--Portfolio item 03-->
+        <a href="#" class="portfolio__item">
+          <img
+            src="images/yogurt.png"
+            alt="yogurt application"
+            class="portfolio__img img-fluid"
+          />
+        </a>
+        </div>
+    
+    </section>
+    </div>
+    <!-------END OF PROJECTS SECTION CODE------->
+
+    <script src="app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
