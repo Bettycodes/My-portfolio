@@ -466,6 +466,9 @@ css for about section
   .skills-container {
     display: none;
   }
+  .about-title {
+    display: none;
+  }
 }
 
 /*--------------------------------------------------------------
