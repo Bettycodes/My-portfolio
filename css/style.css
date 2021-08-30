@@ -463,6 +463,9 @@ css for about section
     display: flex;
     justify-content: center;
   }
+  .skills-container {
+    display: none;
+  }
 }
 
 /*--------------------------------------------------------------
