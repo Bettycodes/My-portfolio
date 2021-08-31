@@ -435,7 +435,8 @@ css for about section
 .about-section {
   border: black 2px solid;
   background-color: black;
-  margin: 50px;
+  padding: 20px;
+  margin: 40px;
 }
 
 p {
@@ -451,11 +452,12 @@ h3 {
 
 .skills {
   color: #fff;
-  border-bottom: 1.5 solid silver;
+  border-style: outset;
+  margin: 2px;
+  text-align: center;
 }
 .skills:hover {
-  color: #fff;
-  border-bottom: 1.5 solid yellow;
+  color: #ffbf00;
 }
 
 /*--------------------------------------------------------------
@@ -463,5 +465,15 @@ end of the css for about section
 --------------------------------------------------------------*/
 
 /* MY WORK SECTION */
+.work-section {
+  border: black 2px solid;
+  background-color: black;
+  padding: 20px;
+  margin: 40px;
+}
+
+.project1:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
 
 /* END OF MY WORK SECTION */
