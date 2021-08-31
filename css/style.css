@@ -413,8 +413,8 @@ h2 {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #ffbf00;
   margin: 4px 10px;
+  color: #fff;
 }
 
 .section-title p {
@@ -444,20 +444,11 @@ p {
   margin: 20px;
 }
 
-h3 {
-  color: #fff;
-  margin-bottom: 20px;
-  text-decoration: underline #ffbf00;
-}
-
 .skills {
   color: #fff;
   border-style: outset;
   margin: 2px;
   text-align: center;
-}
-.skills:hover {
-  color: #ffbf00;
 }
 
 /*--------------------------------------------------------------
@@ -472,9 +463,9 @@ end of the css for about section
   margin: 40px;
 }
 
-@media (min-width: 1200) {
-  .project {
-    display: block;
+@media (max-width: 1200) {
+  .my-work {
+    background-color: transparent;
   }
 }
 
@@ -484,6 +475,11 @@ end of the css for about section
   background-color: black;
   color: white;
   text-align: center;
+}
+.work-section-title {
+  color: #fff;
+  font-size: 30px;
+  text-decoration: underline #ffbf00;
 }
 
 .portfolio {
