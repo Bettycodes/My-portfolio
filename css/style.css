@@ -487,6 +487,7 @@ end of the css for about section
 
 img {
   margin-bottom: 7px;
+  margin-right: 10px;
 }
 
 .portfolio__item:focus {
