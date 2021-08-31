@@ -463,19 +463,8 @@ end of the css for about section
   margin: 40px;
 }
 
-@media (max-width: 1200) {
-  .my-work {
-    background-color: transparent;
-  }
-}
-
 /* END OF MY WORK SECTION */
 
-.my-work {
-  background-color: black;
-  color: white;
-  text-align: center;
-}
 .work-section-title {
   color: #fff;
   font-size: 30px;
