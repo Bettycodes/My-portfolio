@@ -457,7 +457,7 @@ end of the css for about section
 
 /* MY WORK SECTION */
 .work-section {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: transparent;
   margin: 0 auto;
   color: white;
   text-align: center;
