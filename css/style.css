@@ -458,9 +458,11 @@ end of the css for about section
 /* MY WORK SECTION */
 .work-section {
   border: black 2px solid;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 20px;
   margin: 40px;
+  color: white;
+  text-align: center;
 }
 
 /* END OF MY WORK SECTION */
