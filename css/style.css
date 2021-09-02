@@ -501,75 +501,26 @@ end of the css for about section
 /*--------------------------------------------------------------
 start of the css for contact section
 --------------------------------------------------------------*/
-.contact-container {
-  margin-top: 80px;
-  padding: 50px;
-  border: 2px solid rgba(0, 0, 0, 0.5);
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-.contact .info-box {
-  padding: 30px;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.3);
-}
-
-.contact .info-box i {
-  font-size: 24px;
-  color: #ffbf00;
-  border-radius: 50%;
-  padding: 18px;
-  float: left;
-  background: rgba(167, 165, 165, 0.3);
-}
-
-.contact .info-box h3 {
-  font-size: 23px;
+.contacts {
   color: #fff;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  margin: 10px 3 8px 68px;
+  border-style: outset;
+  margin: 0 auto;
+  padding: 3px;
+  text-align: center;
 }
 
-.contact .info-box p {
-  padding: 0;
+.social-links {
   color: #fff;
-  line-height: 30px;
-  font-size: 16px;
-  margin: 0 0 0 68px;
-  text-decoration: none;
+  cursor: pointer;
+  border-radius: 80%;
 }
 
-.contact .info-box a {
-  text-decoration: none;
-}
-
-.contact .info-box .social-links {
-  margin: 20px 0 0 68px;
-  display: flex;
+.social-links:hover {
   color: #ffbf00;
 }
 
-.contact .info-box .social-links a {
-  font-size: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: rgba(255, 255, 255, 0.1);
+h4 {
   color: #fff;
-  line-height: 1;
-  margin-right: 8px;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-}
-
-.contact .info-box .social-links a {
-  color: #ffbf00;
-}
-
-.contact .info-box .social-links a:hover {
-  color: #ffbf00;
 }
 
 /*--------------------------------------------------------------
