@@ -466,9 +466,6 @@ end of the css for about section
   color: white;
   text-align: center;
 }
-
-/* END OF MY WORK SECTION */
-
 .work-section-title {
   color: #fff;
   font-size: 30px;
@@ -499,93 +496,80 @@ end of the css for about section
   transform: scale(1.2);
   opacity: 0.5;
 }
+/* END OF MY WORK SECTION */
 
 /*--------------------------------------------------------------
 start of the css for contact section
 --------------------------------------------------------------*/
-.container {
-  max-width: 200px;
+.contact-container {
+  margin-top: 80px;
+  padding: 50px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.contact .info-box {
+  padding: 30px;
   width: 100%;
-  margin: 0 auto;
-  position: relative;
+  background: rgba(0, 0, 0, 0.3);
 }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea,
-#contact button[type="submit"] {
-  font: 400 12px/16px "Poppins", sans-serif;
+.contact .info-box i {
+  font-size: 24px;
+  color: #ffbf00;
+  border-radius: 50%;
+  padding: 18px;
+  float: left;
+  background: rgba(167, 165, 165, 0.3);
 }
 
-#contact {
-  background: rgba(0, 0, 0, 0.7);
-  padding: 25px;
-  margin: 80px 70px;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-}
-
-#contact h4 {
-  margin: 5px 0 15px;
-  display: block;
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
+.contact .info-box h3 {
+  font-size: 23px;
   color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin: 10px 3 8px 68px;
 }
 
-fieldset {
-  border: medium none !important;
-  margin: 0 0 10px;
-  min-width: 100%;
+.contact .info-box p {
   padding: 0;
-  width: 100%;
-}
-
-#contact input[type="text"],
-#contact input[type="email"],
-#contact textarea {
-  width: 100%;
-  border: 1px solid rgba(43, 42, 42, 0.8);
-  background: rgba(56, 51, 51, 0.8);
-  margin: 0 0 5px;
-  padding: 10px;
-  font-family: "Poppins", sans-serif;
   color: #fff;
+  line-height: 30px;
+  font-size: 16px;
+  margin: 0 0 0 68px;
+  text-decoration: none;
 }
 
-#contact textarea {
-  height: 100px;
-  max-width: 100%;
-  resize: none;
+.contact .info-box a {
+  text-decoration: none;
 }
 
-#contact button[type="submit"] {
-  cursor: pointer;
-  width: 100%;
-  border: none;
-  background: #ffbf00;
+.contact .info-box .social-links {
+  margin: 20px 0 0 68px;
+  display: flex;
+  color: #ffbf00;
+}
+
+.contact .info-box .social-links a {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
   color: #fff;
-  margin: 0 0 5px;
-  padding: 10px;
-  font-size: 15px;
+  line-height: 1;
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
 
-#contact button[type="submit"]:hover {
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out;
+.contact .info-box .social-links a {
+  color: #ffbf00;
 }
 
-#contact button[type="submit"]:active {
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-}
-
-#contact input:focus,
-#contact textarea:focus {
-  outline: 0;
-  border: 1.5px solid rgba(0, 0, 0, 0.7);
+.contact .info-box .social-links a:hover {
+  color: #ffbf00;
 }
 
 /*--------------------------------------------------------------
