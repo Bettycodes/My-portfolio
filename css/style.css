@@ -474,8 +474,7 @@ end of the css for about section
 .work-section-title {
   color: #fff;
   font-size: 30px;
-  text-decoration: underline #ffbf00;
-  margin-top: 35px;
+  margin-top: 25px;
 }
 
 .portfolio {
@@ -497,10 +496,13 @@ end of the css for about section
 }
 
 .source-code {
+  display: inline-block;
   color: #fff;
-  text-decoration: none;
   border-style: outset;
-  margin: 10px 50px 10px 50px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 10px;
 }
 
 .source-code:hover {
