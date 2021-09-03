@@ -310,7 +310,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #482ff7;
+  color: #ffbf00;
 }
 
 .nav-logo {
@@ -496,10 +496,15 @@ end of the css for about section
   border: 2px solid rgba(0, 0, 0, 0.7);
 }
 
-.demo-link {
+.source-code {
   color: #fff;
   text-decoration: none;
   border-style: outset;
+  margin: 10px 50px 10px 50px;
+}
+
+.source-code:hover {
+  color: #ffbf00;
 }
 
 /* END OF MY WORK SECTION */
