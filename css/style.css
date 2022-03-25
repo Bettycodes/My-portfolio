@@ -7,7 +7,7 @@
 
 img {
   display: block;
-  max-width: 114%;
+  max-width: 95%;
   max-height: 80%;
   margin-top: 10px;
   margin-left: 10px;
@@ -450,6 +450,19 @@ css for about section
   padding: 20px;
   max-width: 100%;
 }
+
+.skill-mf span {
+  color: #ffbf00;
+}
+.skill-mf .progress {
+  background-color: #cde1f8;
+  margin: 0.5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: 0.7rem;
+}
+
+.skills-bar{
+background-color: #ffbf00;}
 
 
 
