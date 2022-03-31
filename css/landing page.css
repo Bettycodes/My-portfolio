@@ -1,0 +1,228 @@
+
+ @import url("fonts.css");
+ @import url("font-awesome/css/font-awesome.min.css");
+
+ html {
+     font-size: 10px;
+ }
+ 
+ @media only screen and (max-width:1024px) {
+     html {
+         font-size: 9.411764705882353px;
+     }
+ }
+ @media only screen and (max-width:768px) {
+     html {
+         font-size: 10px;
+     }
+ }
+ @media only screen and (max-width:400px) {
+     html {
+         font-size: 9.411764705882353px;
+     }
+ }
+ 
+ 
+ body {
+     font-family: "lora-regular", serif;
+     font-size: 1.7rem;
+     line-height: 3rem;
+     color: #ffbf00;
+     margin: 0;
+     background:url("/images/dev2.jpg") no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     opacity: 1.8;
+ }
+ 
+ .button,
+ a.button,
+ button,
+ input[type="submit"],
+ input[type="reset"],
+ input[type="button"] {
+     display: inline-block;
+     font-family: "poppins-bold", sans-serif;
+     font-size: 1.4rem;
+     text-transform: uppercase;
+     letter-spacing: .3rem;
+     height: 5.4rem;
+     line-height: 5.4rem;
+     padding: 0 3rem;
+     margin: 0 .3rem 1.2rem 0;
+     background: #d8d8d8;
+     color: #ffbf00;
+     text-decoration: none;
+     cursor: pointer;
+     text-align: center;
+     white-space: nowrap;
+     border: none;
+     -moz-transition: all 0.3s ease-in-out;
+     -o-transition: all 0.3s ease-in-out;
+     -webkit-transition: all 0.3s ease-in-out;
+     -ms-transition: all 0.3s ease-in-out;
+     transition: all 0.3s ease-in-out;
+ }
+ button.stroke, .button.stroke {
+    background-color: #060D0D;
+     border: 3px solid #ffbf00;
+     line-height: 4.8rem;
+ }
+
+ @media only screen and (max-width:1024px) {
+     header .top-bar {
+         left: 60px;
+     }
+ }
+ @media only screen and (max-width:768px) {
+     header .top-bar {
+         left: 50px;
+     }
+ }
+ @media only screen and (max-width:600px) {
+     header .top-bar {
+         left: 35px;
+     }
+ }
+ @media only screen and (max-width:400px) {
+     header .top-bar {
+         left: 25px;
+     }
+ }
+ 
+ #intro {
+     background:url(/images/dev2.jpg) no-repeat center ;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     background-size: cover;
+     background-attachment: fixed;
+     width: 100%;
+     height: 100%;
+     min-height: 720px;
+     display: table;
+     position: relative;
+     text-align: center;
+ }
+ .intro-overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     opacity: .85;
+ }
+ 
+ .intro-content {
+     display: table-cell;
+     vertical-align: middle;
+     text-align: center;
+     -webkit-transform: translateY(-2.1rem);
+     -ms-transform: translateY(-2.1rem);
+     transform: translateY(-2.1rem);
+ }
+ .intro-content h1 {
+     color: #ffbf00;
+     font-family: "poppins-medium", sans-serif;
+     font-size: 7.5rem;
+     line-height: 1.071;
+     max-width: 900px;
+     margin-top: 0;
+     margin-bottom: .6rem;
+     margin-left: auto;
+     margin-right: auto;
+     text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+ }
+ .intro-content h5 {
+     color: #fff;
+     font-family: "poppins-bold", sans-serif;
+     font-size: 2.3rem;
+     line-height: 1.565;
+     margin-bottom: 0;
+     text-transform: uppercase;
+     letter-spacing: .3rem;
+     text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+ }
+ .intro-content .intro-position {
+     font-family: "lora-regular", serif;
+     font-size: 2rem;
+     line-height: 2.4rem;
+     text-transform: uppercase;
+     letter-spacing: .2rem;
+     color: #060D0D;
+     border: #060D0D 1px;
+     
+ }
+ .intro-content .intro-position span {
+     display: inline-block;
+     font-weight: 500;
+     color: #ffbf00;
+ }
+
+ .intro-content .button {
+     color: #ffbf00 !important;
+     border-color: #060D0D;
+     height: 6rem !important;
+     line-height: 5.4rem !important;
+     padding: 0 3.5rem 0 3rem !important;
+     margin: 0 auto;
+     margin-top: 20px;
+     font-size: 1.3rem;
+     text-transform: uppercase;
+     letter-spacing: .25rem; 
+ }
+
+ .intro-content .button:hover, .intro-content .button:focus {
+     border-color: #ffbf00;
+ }
+ 
+ .intro-social {
+     display: block;
+     position: absolute;
+     width: 100%;
+     left: 0;
+     bottom: 7.2rem;
+     font-size: 3.3rem;
+     margin: 0;
+     padding: 0;
+ }
+
+ .intro-social li {
+     display: inline-block;
+     margin: 30px;
+     padding: 2px;
+     border: 2px solid;
+     border-radius: 50px;
+     background-color: #060D0D;  
+     
+ }
+
+ .intro-social li a, .intro-social li a:visited {
+     color: #ffbf00;
+     
+ }
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+
+
+ 
+ 
