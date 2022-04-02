@@ -288,54 +288,30 @@ end of the css for about section
 
 /* MY WORK SECTION */
 
- .work-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  max-width: 1500px;
-  margin: 40px 0;
+.projects-title{
+  margin-bottom: 30px;
 }
 
- .work-section .card {
-  position: relative;
-  min-width: 320px;
-  height: 400px;
-  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
-    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
-    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
-  border-radius: 15px;
+.work{
   margin: 30px;
-}
-
-.work-section .card .box1 {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  right: 20px;
-  bottom: 20px;
-  background: #fff;
-  border-radius: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  transition: 0.5s;
-  background-image: url(/images/Dictionary.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+  border-bottom: 2px solid #ffbf00;
 }
 
 .links{
   color: #ffbf00;
   text-decoration: none;
+  background-color: #060D0D;
+  border: 2px solid #ffbf00;
+  margin-top: 10px;
+  margin-right: 10px;
+
   
 }
 
 .links:hover {
   color: #060D0D;
   background-color: #ffbf00;
-  border: 1px #ffbf00
+  border: 2px solid #060D0D
 }
 
 
