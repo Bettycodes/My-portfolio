@@ -308,7 +308,6 @@ end of the css for about section
   margin: 30px;
 }
 
-
 .work-section .card .box1 {
   position: absolute;
   top: 20px;
@@ -325,63 +324,6 @@ end of the css for about section
   background-image: url(/images/Dictionary.png);
   background-size: contain;
   background-repeat: no-repeat;
-}
-
-.work-section .card .box2 {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  right: 20px;
-  bottom: 20px;
-  background: #fff;
-  border-radius: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  transition: 0.5s;
-  background-image: url(/images/weather-app.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  max-width: 300%;
-}
-.work-section .card .box3 {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  right: 20px;
-  bottom: 20px;
-  background: #fff;
-  border-radius: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  transition: 0.5s;
-  background-image: url(/images/weather-app.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  max-width: 300%;
-}
-
-
-
-
-
- 
-
-.work-section .card .box .content h3 {
-  font-size: 1.8rem;
-  color: #fff;
-  margin-top: 20px;
-}
-
-.work-section .card .box .content p {
-  font-size: 1rem;
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.9);
-  z-index: 1;
-  transition: 0.5s;
 }
 
 .links{
