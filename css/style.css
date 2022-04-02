@@ -385,12 +385,9 @@ end of the css for about section
 }
 
 .links{
-  display: inline-block;
   color: #ffbf00;
   text-decoration: none;
-  margin-left: 20px;
-  margin-right: 30px;
-  padding: 3px;
+  
 }
 
 .links:hover {
