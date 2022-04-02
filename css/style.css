@@ -1,4 +1,6 @@
 /*General styles*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -256,18 +258,6 @@ css for about section
 background-color: #ffbf00;
 }
 
-
-
-
-
-
-
-/*--------------------------------------------------------------
-end of the css for about section
---------------------------------------------------------------*/
-
-/* MY WORK SECTION */
-
 .resume-link{
   display: inline-block;
   color: #ffbf00;
@@ -286,52 +276,138 @@ end of the css for about section
 
 }
 
-.project {
-  border: 1px #060D0D solid;
+
+
+
+
+
+
+/*--------------------------------------------------------------
+end of the css for about section
+--------------------------------------------------------------*/
+
+/* MY WORK SECTION */
+
+ .work-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1500px;
+  margin: 40px 0;
+}
+
+ .work-section .card {
+  position: relative;
+  min-width: 320px;
+  height: 400px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
   border-radius: 15px;
-  margin: 10px;
+  margin: 30px;
 }
 
-.portfolio {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
 
-.portfolio p {
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
-}
-
-.portfolio__item {
+.work-section .card .box1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #fff;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
+  transition: 0.5s;
+  background-image: url(/images/Dictionary.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.portfolio__img {
-  display: block;
-  max-width: 100%;
-  max-height: 80%;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-bottom: 7px;
-  margin-right: 10px;
+.work-section .card .box2 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #fff;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+  background-image: url(/images/weather-app.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 300%;
+}
+.work-section .card .box3 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #fff;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+  background-image: url(/images/weather-app.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 300%;
 }
 
-.source-code {
+
+
+
+
+ 
+
+.work-section .card .box .content h3 {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.work-section .card .box .content p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.links{
   display: inline-block;
   color: #ffbf00;
   background: #060D0D;
-  border-style: outset;
-  border-radius: 20px;
-  text-align: center;
   text-decoration: none;
-  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 30px;
+  padding: 3px;
+  position: relative;
+  border-radius: 10%;
+  border-style: inset;
 }
 
-.source-code:hover {
+.links:hover {
   color: #060D0D;
   background-color: #ffbf00;
-
+  border: 1px #ffbf00
 }
+
+
+
+
 
 /* END OF MY WORK SECTION */
 
