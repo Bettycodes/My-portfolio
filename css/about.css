@@ -154,89 +154,8 @@ body {
 # End of Nav-bar Code
 --------------------------------------------------------------*/
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
 
-section {
-  overflow: hidden;
-  position: absolute;
-  width: 100%;
-  top: 140px;
-  bottom: 100%;
-  opacity: 0;
-  transition: ease-in-out 0.4s;
-  z-index: 2;
-}
 
-section.section-show {
-  top: 100px;
-  bottom: auto;
-  opacity: 1;
-  padding-bottom: 45px;
-}
-
-section .container {
-  background: rgba(0, 0, 0, 0.9);
-  padding: 30px;
-}
-
-@media (max-width: 768px) {
-  section {
-    top: 120px;
-  }
-  section.section-show {
-    top: 80px;
-  }
-}
-
-.section-title h2 {
-  font-size: 14px;
-  font-weight: 500;
-  padding: 0;
-  line-height: 1px;
-  margin: 0 0 20px 0;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
-}
-
-h2 {
-  height: 1px;
-  display: inline-block;
-  margin-top: 20px;
-  color: #060D0D;
-}
-
-h3 {
-  content: "";
-  width: 120px;
-  height: 1px;
-  display: inline-block;
-  margin: 4px 10px;
-  color: #fff;
-}
-
-.section-title p {
-  margin: 0;
-  margin: -15px 0 15px 0;
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #fff;
-}
-
-/*END OF HOMEPAGE CSS*/
-
-/*--------------------------------------------------------------
-css for about section
---------------------------------------------------------------*/
-.about{
-  color:#060D0D;
-  margin: 20px;
-}
 
 .card{
   margin: 20px;
@@ -265,52 +184,16 @@ background-color: #ffbf00;
   border-style: outset;
   text-decoration: none;
   margin-bottom: 50px;
-  padding: 10px;
+  padding: 5px;
   position: relative;
   left: 40%;
 }
 
-.resume-link :hover {
-  color: #060D0D;
-  background-color: #ffbf00;
-
-}
-
-
-
-/*--------------------------------------------------------------
-end of the css for about section
---------------------------------------------------------------*/
-
-/* MY WORK SECTION */
-
-.projects-title{
-  margin-bottom: 30px;
-}
-
-.work{
-  margin: 30px;
-  border-bottom: 2px solid #ffbf00;
-}
-
-.links{
-  color: #ffbf00;
-  text-decoration: none;
-  background-color: #060D0D;
-  border: 2px solid #ffbf00;
-  margin-top: 10px;
-  margin-right: 10px;
-
-  
-}
-
-.links:hover {
+.resume-link:hover {
   color: #060D0D;
   background-color: #ffbf00;
   border: 2px solid #060D0D
 }
-
-
 
 
 
@@ -445,8 +328,3 @@ end of the css for about section
  }
 }
 
-
-
-.resume-header{
-  margin-top: 20px;
-}
