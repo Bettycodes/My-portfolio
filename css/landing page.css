@@ -20,19 +20,7 @@ body {
   h1 {
     margin: 60px;
   }
-  
-  
-  a {
-    color: #292929;
-    text-decoration: none !important;
-    -moz-transition: all 0.5s ease-in-out 0s;
-    -ms-transition: all 0.5s ease-in-out 0s;
-    -o-transition: all 0.5s ease-in-out 0s;
-    -webkit-transition: all 0.5s ease-in-out 0s;
-    transition: all 0.5s ease-in-out 0s;
-  }
-  
-  
+
   
   /*----------------------------------------------------------------------------------*/
   /*  Header
@@ -81,17 +69,17 @@ body {
 }
 
 .header-content .list-social li i:hover {
-    color: #060D0D;
+    color: #ffbf00;
   }
     
   
   .header-content .list-social li i {
-    color: #ffbf00;
+    color: #060D0D;
     font-size: 18px;
   }
   
   .button{
-    background-color: #ffbf00; /* Green */
+    background-color: #ffbf00; 
     border: none;
     color: white;
     padding: 10px 10px;
@@ -103,15 +91,11 @@ body {
   }
 
   .button:hover{
-    background-color: #060D0D; /* Green */
-    border: none;
+    background-color: #060D0D; 
     color: white;
-    padding: 15px 30px;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 5px auto;
   }
 
    
