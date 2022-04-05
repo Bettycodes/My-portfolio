@@ -126,7 +126,7 @@ body {
   and (-webkit-min-device-pixel-ratio: 3) { 
 
     .header-content h1 {
-        font-size: 20px;
+        font-size: 40px;
         font-weight: 700;
         margin-bottom: 10px;
         text-transform: uppercase;
