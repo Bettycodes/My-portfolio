@@ -130,5 +130,6 @@ body {
         font-weight: 700;
         text-transform: uppercase;
         color: #ffbf00;
+        padding: 0;
       }
 }
