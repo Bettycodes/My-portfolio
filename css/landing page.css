@@ -122,14 +122,38 @@ body {
 
   @media only screen 
   and (min-device-width: 564px) 
-  and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 
     .header-content h1 {
-        font-size: 25px;
-        font-weight: 700;
+        font-size: 20px;
+        font-weight: 300;
         text-transform: uppercase;
         color: #ffbf00;
         padding: 0;
       }
+
+      .button{
+        background-color: #ffbf00; /* Green */
+        border: none;
+        color: white;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 5px auto;
+      }
+    
+      .button:hover{
+        background-color: #060D0D; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 5px auto;
+      }  
 }
+
